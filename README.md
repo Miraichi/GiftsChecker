@@ -12,6 +12,3 @@ Program for: Validate Gifts/Bundls URLs of HumbleBundle.com!
 > https://www.humblebundle.com/s?key= **%ExampleKey%** 
 
 > https://www.humblebundle.com/?gift= **%ExampleKey%** 
-
-
-### Start coding: 23.03.2019
