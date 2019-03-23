@@ -1,11 +1,8 @@
 ﻿using Leaf.xNet;
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace GiftsChecker
 {
@@ -137,16 +134,6 @@ namespace GiftsChecker
                                                 Console.Write(" | Unactivated keys: +" + Environment.NewLine);
                                             else
                                                 Console.Write(" | Unactivated keys: -" + Environment.NewLine);
-
-                                            req.AddHeader("x-requested-with", "XMLHttpRequest");
-
-                                            var cookieStore = new CookieStorage();
-                                            cookieStore.Set("csrf_cookie", "JKmC1EDI9mii2VkJ-1-1553273985", ".humblebundle.com");
-                                            cookieStore.Set("_simpleauth_sess", "eyJ1c2VyX2lkIjo2MTg4MjIxOTM3NjE0ODQ4LCJpZCI6ImRLdng5T0xYV3AiLCJhdXRoX3RpbWUiOjE1NTMyNzQwNDJ9|1553346092|4ab63ec4c7cb5bf75b74c54e10cf267d89139a33", ".humblebundle.com");
-                                            cookieStore.Set("hbguard", "\"IbRVi5qNqcJaXQETuYYC4a97jUoc+BxYGNE6xwICSsc\075\"", ".humblebundle.com");
-
-                                            req.Cookies = cookieStore;
-                                            req.Post("https://www.humblebundle.com/bundle/claim", "claimkey=" + value, "application/x-www-form-urlencoded");
                                         }
                                     }
                                 }
