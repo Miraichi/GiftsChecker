@@ -1,4 +1,4 @@
-# GiftsChecker - HumbleBundle URLs Checker - v0.0.1
+# GiftsChecker - HumbleBundle URLs Checker - v0.0.2
 
 
 Program for: Validate Gifts/Bundls URLs of HumbleBundle.com!
@@ -8,6 +8,8 @@ Program for: Validate Gifts/Bundls URLs of HumbleBundle.com!
 > https://www.humblebundle.com/?key= **%ExampleKey%** 
 
 > https://www.humblebundle.com/gift?key= **%ExampleKey%** 
+
+> https://www.humblebundle.com/download?key= **%ExampleKey%** 
 
 > https://www.humblebundle.com/s?key= **%ExampleKey%** 
 
