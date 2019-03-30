@@ -1,7 +1,7 @@
 # GiftsChecker - HumbleBundle URLs Checker - v0.0.2
 
 
-Program for: Validate Gifts/Bundls URLs of HumbleBundle.com!
+Program for: Validate Gifts/Bundles URLs of HumbleBundle.com!
 
 
 ## Example URLs
